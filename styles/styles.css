@@ -1,0 +1,120 @@
+/* Fonts */
+@font-face {
+    font-family: 'RobotoBlack';
+    src: url('../fonts/Roboto-Black.ttf');
+}
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+/* Overrides */
+h1 {
+    font-family: 'RobotoBlack';
+    font-size: 100px;
+    color: #4F4D53;
+}
+
+h2 {
+    font-family: 'RobotoBlack';
+    font-size: 64px;
+    color: #E8BE02;
+}
+
+h3 {
+    font-family: 'RobotoBlack';
+    font-size: 20px;
+    color: #E8BE02;
+}
+
+h4 {
+    font-family: 'RobotoRegular';
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'RobotoRegular';
+    font-size: 20px;
+    color: #4F4D53;
+}
+
+/* UI Components */
+.navbar {
+    height: 48px;
+    background-color: #4F4D53;
+    position: relative;
+}
+
+.navbarLogo {
+    margin-left: 30%;
+}
+
+.footerContainer {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.footerLine {
+    height: 12px;
+    background-color: #E8BE02;
+}
+
+.footer {
+    height: 320px;
+    background-color: #4F4D53;
+}
+
+.headerContainer {
+    position: relative;
+}
+
+.header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.profileImageContainer {
+    transform: translate(0%, -50%);
+}
+
+.profileImage {
+    margin: 50px;
+}
+
+.text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    width: 50%;
+}
+
+/* Generic */
+.imageFull {
+    width: 100%;
+}
+
+.horizontalCenter {
+    text-align: center;
+}
+
+.verticalCenter {
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.row {
+    clear: both;
+}
